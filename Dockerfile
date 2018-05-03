@@ -14,5 +14,4 @@ RUN echo "Hi, This is Arulraj Anto, test page 1" > /var/www/html/index.html
 EXPOSE  8081
 
 # Start the service
-#CMD /usr/sbin/apache2ctl -D FOREGROUND
-#CMD /usr/sbin/apache2ctl -D FOREGROUND
+CMD /usr/sbin/apache2ctl -D FOREGROUND
